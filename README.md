@@ -88,6 +88,10 @@ flowchart LR
    ```bash
    git push origin feat/solution-for-problemA
    ```
+> push的时候可能出现无法登录的情况，解决方案如下
+> 点击头像，找到settings,在settings里下拉找到developer settings，在Personal access tokens中找到Tokens (classic)
+> Generate new tokens (classic),长期使用可以选择no expire date。记得勾选repo那一栏，然后generate
+> 最后复制令牌，因为只显示一次所以要把他放在其他地方储存，后面在终端push需要登录时，就用令牌代替密码
 
 6. **创建 Pull Request**：
    - 访问我们的 GitHub 仓库页面
